@@ -1,0 +1,145 @@
+{
+  "rooms": [
+    {
+      "id": "room-001",
+      "name": "Executive Boardroom",
+      "capacity": 20,
+      "location": "Floor 5, East Wing",
+      "features": [
+        "Projector",
+        "Video conferencing",
+        "Whiteboard",
+        "Catering available",
+        "Natural lighting"
+      ],
+      "hourlyRate": 150,
+      "availability": {
+        "monday": ["09:00-17:00"],
+        "tuesday": ["09:00-17:00"],
+        "wednesday": ["09:00-17:00"],
+        "thursday": ["09:00-17:00"],
+        "friday": ["09:00-17:00"],
+        "saturday": [],
+        "sunday": []
+      },
+      "image": "/rooms/executive-boardroom.jpg",
+      "status": "available"
+    },
+    {
+      "id": "room-002",
+      "name": "Conference Room A",
+      "capacity": 12,
+      "location": "Floor 3, North Wing",
+      "features": [
+        "Projector",
+        "Video conferencing",
+        "Whiteboard"
+      ],
+      "hourlyRate": 75,
+      "availability": {
+        "monday": ["08:00-20:00"],
+        "tuesday": ["08:00-20:00"],
+        "wednesday": ["08:00-20:00"],
+        "thursday": ["08:00-20:00"],
+        "friday": ["08:00-20:00"],
+        "saturday": ["09:00-14:00"],
+        "sunday": []
+      },
+      "image": "/rooms/conference-room-a.jpg",
+      "status": "available"
+    },
+    {
+      "id": "room-003",
+      "name": "Meeting Room B",
+      "capacity": 8,
+      "location": "Floor 2, West Wing",
+      "features": [
+        "TV Screen",
+        "Whiteboard"
+      ],
+      "hourlyRate": 50,
+      "availability": {
+        "monday": ["08:00-18:00"],
+        "tuesday": ["08:00-18:00"],
+        "wednesday": ["08:00-18:00"],
+        "thursday": ["08:00-18:00"],
+        "friday": ["08:00-18:00"],
+        "saturday": [],
+        "sunday": []
+      },
+      "image": "/rooms/meeting-room-b.jpg",
+      "status": "available"
+    },
+    {
+      "id": "room-004",
+      "name": "Training Room",
+      "capacity": 30,
+      "location": "Floor 1, South Wing",
+      "features": [
+        "Projector",
+        "Multiple whiteboards",
+        "Computer workstations",
+        "Audio system"
+      ],
+      "hourlyRate": 120,
+      "availability": {
+        "monday": ["09:00-17:00"],
+        "tuesday": ["09:00-17:00"],
+        "wednesday": ["09:00-17:00"],
+        "thursday": ["09:00-17:00"],
+        "friday": ["09:00-17:00"],
+        "saturday": [],
+        "sunday": []
+      },
+      "image": "/rooms/training-room.jpg",
+      "status": "maintenance"
+    },
+    {
+      "id": "room-005",
+      "name": "Huddle Space",
+      "capacity": 4,
+      "location": "Floor 4, Central Area",
+      "features": [
+        "TV Screen",
+        "Whiteboard wall"
+      ],
+      "hourlyRate": 30,
+      "availability": {
+        "monday": ["08:00-20:00"],
+        "tuesday": ["08:00-20:00"],
+        "wednesday": ["08:00-20:00"],
+        "thursday": ["08:00-20:00"],
+        "friday": ["08:00-20:00"],
+        "saturday": ["09:00-17:00"],
+        "sunday": ["09:00-17:00"]
+      },
+      "image": "/rooms/huddle-space.jpg",
+      "status": "available"
+    },
+    {
+      "id": "room-006",
+      "name": "Auditorium",
+      "capacity": 100,
+      "location": "Ground Floor, Main Building",
+      "features": [
+        "Stage",
+        "Professional AV system",
+        "Tiered seating",
+        "Podium",
+        "Backstage area"
+      ],
+      "hourlyRate": 300,
+      "availability": {
+        "monday": ["09:00-18:00"],
+        "tuesday": ["09:00-18:00"],
+        "wednesday": ["09:00-18:00"],
+        "thursday": ["09:00-18:00"],
+        "friday": ["09:00-18:00"],
+        "saturday": ["10:00-15:00"],
+        "sunday": []
+      },
+      "image": "/rooms/auditorium.jpg",
+      "status": "available"
+    }
+  ]
+} 

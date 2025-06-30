@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": "user-001",
+      "name": "John Smith",
+      "email": "john.smith@company.com",
+      "role": "admin",
+      "department": "IT",
+      "position": "IT Manager",
+      "phone": "555-1234",
+      "profileImage": "/users/john-smith.jpg",
+      "dateCreated": "2023-01-15T08:30:00Z",
+      "lastLogin": "2024-06-28T14:22:10Z",
+      "status": "active"
+    },
+    {
+      "id": "user-002",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@company.com",
+      "role": "manager",
+      "department": "Marketing",
+      "position": "Marketing Director",
+      "phone": "555-2345",
+      "profileImage": "/users/sarah-johnson.jpg",
+      "dateCreated": "2023-02-10T10:15:00Z",
+      "lastLogin": "2024-06-27T09:45:22Z",
+      "status": "active"
+    },
+    {
+      "id": "user-003",
+      "name": "Michael Chen",
+      "email": "michael.chen@company.com",
+      "role": "user",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "phone": "555-3456",
+      "profileImage": "/users/michael-chen.jpg",
+      "dateCreated": "2023-03-05T14:20:00Z",
+      "lastLogin": "2024-06-28T11:30:45Z",
+      "status": "active"
+    },
+    {
+      "id": "user-004",
+      "name": "Emily Rodriguez",
+      "email": "emily.rodriguez@company.com",
+      "role": "user",
+      "department": "HR",
+      "position": "HR Specialist",
+      "phone": "555-4567",
+      "profileImage": "/users/emily-rodriguez.jpg",
+      "dateCreated": "2023-04-12T09:10:00Z",
+      "lastLogin": "2024-06-26T16:15:33Z",
+      "status": "active"
+    },
+    {
+      "id": "user-005",
+      "name": "David Kim",
+      "email": "david.kim@company.com",
+      "role": "manager",
+      "department": "Sales",
+      "position": "Sales Manager",
+      "phone": "555-5678",
+      "profileImage": "/users/david-kim.jpg",
+      "dateCreated": "2023-05-20T11:45:00Z",
+      "lastLogin": "2024-06-28T08:55:17Z",
+      "status": "active"
+    },
+    {
+      "id": "user-006",
+      "name": "Lisa Wong",
+      "email": "lisa.wong@company.com",
+      "role": "admin",
+      "department": "Operations",
+      "position": "Operations Director",
+      "phone": "555-6789",
+      "profileImage": "/users/lisa-wong.jpg",
+      "dateCreated": "2023-06-15T13:30:00Z",
+      "lastLogin": "2024-06-27T15:40:05Z",
+      "status": "active"
+    },
+    {
+      "id": "user-007",
+      "name": "Robert Taylor",
+      "email": "robert.taylor@company.com",
+      "role": "user",
+      "department": "Research",
+      "position": "Research Scientist",
+      "phone": "555-7890",
+      "profileImage": "/users/robert-taylor.jpg",
+      "dateCreated": "2023-07-08T10:20:00Z",
+      "lastLogin": "2024-06-25T09:10:30Z",
+      "status": "inactive"
+    },
+    {
+      "id": "user-008",
+      "name": "Amanda Garcia",
+      "email": "amanda.garcia@company.com",
+      "role": "user",
+      "department": "Legal",
+      "position": "Legal Counsel",
+      "phone": "555-8901",
+      "profileImage": "/users/amanda-garcia.jpg",
+      "dateCreated": "2023-08-22T15:15:00Z",
+      "lastLogin": "2024-06-28T13:25:40Z",
+      "status": "active"
+    }
+  ]
+} 

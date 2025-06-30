@@ -1,0 +1,229 @@
+{
+  "bookings": [
+    {
+      "id": "booking-001",
+      "roomId": "room-001",
+      "userId": "user-002",
+      "title": "Executive Strategy Meeting",
+      "description": "Quarterly strategy review with department heads",
+      "startTime": "2024-07-01T09:00:00Z",
+      "endTime": "2024-07-01T11:00:00Z",
+      "attendees": [
+        "user-002",
+        "user-005",
+        "user-006"
+      ],
+      "resources": [
+        "resource-001",
+        "resource-003"
+      ],
+      "status": "confirmed",
+      "createdAt": "2024-06-15T14:30:00Z",
+      "updatedAt": "2024-06-15T14:30:00Z",
+      "recurring": false,
+      "notes": "Please prepare quarterly reports"
+    },
+    {
+      "id": "booking-002",
+      "roomId": "room-002",
+      "userId": "user-003",
+      "title": "Financial Review",
+      "description": "Monthly financial performance review",
+      "startTime": "2024-07-02T13:00:00Z",
+      "endTime": "2024-07-02T14:30:00Z",
+      "attendees": [
+        "user-003",
+        "user-005"
+      ],
+      "resources": [
+        "resource-001"
+      ],
+      "status": "confirmed",
+      "createdAt": "2024-06-20T10:15:00Z",
+      "updatedAt": "2024-06-20T10:15:00Z",
+      "recurring": true,
+      "recurrencePattern": "monthly",
+      "recurrenceEndDate": "2024-12-31T00:00:00Z",
+      "notes": ""
+    },
+    {
+      "id": "booking-003",
+      "roomId": "room-003",
+      "userId": "user-004",
+      "title": "HR Interview",
+      "description": "Interview for Senior Developer position",
+      "startTime": "2024-07-03T10:00:00Z",
+      "endTime": "2024-07-03T11:00:00Z",
+      "attendees": [
+        "user-004",
+        "user-001"
+      ],
+      "resources": [],
+      "status": "confirmed",
+      "createdAt": "2024-06-25T09:45:00Z",
+      "updatedAt": "2024-06-25T09:45:00Z",
+      "recurring": false,
+      "notes": "Candidate: Jane Doe"
+    },
+    {
+      "id": "booking-004",
+      "roomId": "room-004",
+      "userId": "user-001",
+      "title": "IT Training Session",
+      "description": "New software rollout training",
+      "startTime": "2024-07-05T13:00:00Z",
+      "endTime": "2024-07-05T16:00:00Z",
+      "attendees": [
+        "user-001",
+        "user-003",
+        "user-004",
+        "user-008"
+      ],
+      "resources": [
+        "resource-001",
+        "resource-002",
+        "resource-004"
+      ],
+      "status": "confirmed",
+      "createdAt": "2024-06-18T11:20:00Z",
+      "updatedAt": "2024-06-18T11:20:00Z",
+      "recurring": false,
+      "notes": "Please bring laptops"
+    },
+    {
+      "id": "booking-005",
+      "roomId": "room-005",
+      "userId": "user-008",
+      "title": "Legal Brief",
+      "description": "Discussion on upcoming contract changes",
+      "startTime": "2024-07-01T15:00:00Z",
+      "endTime": "2024-07-01T16:00:00Z",
+      "attendees": [
+        "user-008",
+        "user-006"
+      ],
+      "resources": [],
+      "status": "confirmed",
+      "createdAt": "2024-06-27T13:10:00Z",
+      "updatedAt": "2024-06-27T13:10:00Z",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "booking-006",
+      "roomId": "room-006",
+      "userId": "user-006",
+      "title": "Company All-Hands",
+      "description": "Quarterly company update and announcements",
+      "startTime": "2024-07-08T14:00:00Z",
+      "endTime": "2024-07-08T16:00:00Z",
+      "attendees": [
+        "user-001",
+        "user-002",
+        "user-003",
+        "user-004",
+        "user-005",
+        "user-006",
+        "user-008"
+      ],
+      "resources": [
+        "resource-001",
+        "resource-002",
+        "resource-005"
+      ],
+      "status": "confirmed",
+      "createdAt": "2024-06-10T09:30:00Z",
+      "updatedAt": "2024-06-10T09:30:00Z",
+      "recurring": false,
+      "notes": "Q2 results presentation"
+    },
+    {
+      "id": "booking-007",
+      "roomId": "room-002",
+      "userId": "user-005",
+      "title": "Sales Team Meeting",
+      "description": "Weekly sales pipeline review",
+      "startTime": "2024-07-01T10:00:00Z",
+      "endTime": "2024-07-01T11:00:00Z",
+      "attendees": [
+        "user-005"
+      ],
+      "resources": [
+        "resource-001"
+      ],
+      "status": "confirmed",
+      "createdAt": "2024-06-24T16:45:00Z",
+      "updatedAt": "2024-06-24T16:45:00Z",
+      "recurring": true,
+      "recurrencePattern": "weekly",
+      "recurrenceEndDate": "2024-09-30T00:00:00Z",
+      "notes": ""
+    },
+    {
+      "id": "booking-008",
+      "roomId": "room-001",
+      "userId": "user-002",
+      "title": "Marketing Campaign Launch",
+      "description": "Final review before Q3 campaign launch",
+      "startTime": "2024-07-10T13:00:00Z",
+      "endTime": "2024-07-10T15:00:00Z",
+      "attendees": [
+        "user-002",
+        "user-005",
+        "user-008"
+      ],
+      "resources": [
+        "resource-001",
+        "resource-003"
+      ],
+      "status": "pending",
+      "createdAt": "2024-06-28T11:30:00Z",
+      "updatedAt": "2024-06-28T11:30:00Z",
+      "recurring": false,
+      "notes": "Final budget approval needed"
+    },
+    {
+      "id": "booking-009",
+      "roomId": "room-003",
+      "userId": "user-003",
+      "title": "Budget Planning",
+      "description": "2025 budget planning session",
+      "startTime": "2024-07-15T09:00:00Z",
+      "endTime": "2024-07-15T12:00:00Z",
+      "attendees": [
+        "user-003",
+        "user-005",
+        "user-006"
+      ],
+      "resources": [
+        "resource-001"
+      ],
+      "status": "pending",
+      "createdAt": "2024-06-28T14:15:00Z",
+      "updatedAt": "2024-06-28T14:15:00Z",
+      "recurring": false,
+      "notes": "Bring department budget proposals"
+    },
+    {
+      "id": "booking-010",
+      "roomId": "room-004",
+      "userId": "user-001",
+      "title": "System Maintenance Planning",
+      "description": "Planning for upcoming system maintenance",
+      "startTime": "2024-07-03T14:00:00Z",
+      "endTime": "2024-07-03T15:30:00Z",
+      "attendees": [
+        "user-001"
+      ],
+      "resources": [
+        "resource-002"
+      ],
+      "status": "cancelled",
+      "createdAt": "2024-06-20T13:40:00Z",
+      "updatedAt": "2024-06-27T09:15:00Z",
+      "recurring": false,
+      "notes": "Cancelled due to urgent priority shift",
+      "cancellationReason": "Schedule conflict"
+    }
+  ]
+} 
